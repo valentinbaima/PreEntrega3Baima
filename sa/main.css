@@ -1,0 +1,202 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Warbones";
+  src: url(../assets/ttf/Warbones.ttf) format(truetype);
+  font-weight: normal;
+}
+body {
+  font-family: "Warbones";
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+  background-color: black;
+  padding: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 2rem;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.header {
+  background-color: black;
+  padding: 20px 10px;
+}
+.header h1 {
+  color: white;
+  font-family: "Warbones";
+  font-size: 50px;
+}
+.header__conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__conteinerimg {
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+}
+.header__links {
+  display: none;
+  font-size: 50px;
+  text-align: center;
+}
+.header__links a:hover {
+  color: red;
+}
+
+/* media */
+@media (min-width: 768px) {
+  .nav__links {
+    display: flex;
+  }
+  .nav__links li {
+    margin: 0 15px;
+  }
+  .nav__links li a {
+    color: white;
+  }
+  .header__container-navbar-mobile {
+    display: none;
+  }
+}
+.form-register {
+  width: 400px;
+  background: darkgray;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Warbones";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-register h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.form-registercontrols {
+  width: 100%;
+  background: red;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid dark;
+  font-family: "Warbones";
+  font-size: 18px;
+  color: white;
+}
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-family: "Warbones";
+  font-size: 17px;
+  line-height: 40px;
+}
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+.form-register:hover {
+  color: white;
+  text-decoration: underline;
+}
+.form-registerbotons {
+  width: 100%;
+  background: red;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-family: "Warbones";
+  font-size: 16px;
+}
+
+.products {
+  margin: 60px;
+  padding: 20px 20px;
+}
+.products__destacados {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 50px;
+}
+.products__cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+.productscard {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 25px 50px -12px black;
+}
+.productsheader img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+.products__title {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.products__description {
+  margin-bottom: 40px;
+}
+.products__link {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 15px 0;
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.contenedor-map {
+  margin-top: 100px;
+  padding: 20px;
+}
+.contenedor-mapmap {
+  font-family: "Warbones";
+  font-size: 24px;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+.contenedor-maptexto {
+  padding: 30px;
+}
+
+@media (min-width: 768px) {
+  .products__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .products__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box  ;
+}
+@font-face{
+    font-family: "Warbones";
+    src: url(../assets/ttf/Warbones.ttf) format(truetype);
+    font-weight: normal;
+}
+body {
+  font-family: "Warbones";
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}

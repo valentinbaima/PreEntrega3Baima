@@ -1,0 +1,14 @@
+{
+  "name": "preentrega3baima",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+ "build-sass": "sass ./sass/main.scss ./sa/main.css -w --no-source-map"
+  },
+  "author": "Valentin",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
