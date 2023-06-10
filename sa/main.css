@@ -41,6 +41,11 @@ ul {
   font-family: "Warbones";
   font-size: 50px;
 }
+.header__conteiner-img {
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+}
 .header__conteiner {
   max-width: 1200px;
   margin: 0 auto;
@@ -48,10 +53,28 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
-.header__conteinerimg {
-  width: 300px;
-  height: 200px;
-  padding: 5px;
+.header__conteiner-navbar-mobile i {
+  font-size: 35px;
+  color: white;
+}
+.header__conteiner-navbar-mobile ul {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  background-color: white;
+  width: 100%;
+  display: none;
+}
+.header__conteiner-navbar-mobile ul li {
+  padding: 20px 0px;
+  text-align: center;
+}
+.header__conteiner-navbar-mobile ul li a {
+  font-weight: "Warbones";
+  color: white;
+}
+.header__conteiner-navbar-mobile:hover ul {
+  display: block;
 }
 .header__links {
   display: none;
